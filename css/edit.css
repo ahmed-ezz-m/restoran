@@ -37,6 +37,11 @@
     }
 }
 
+@media (max-width:600px) {
+    .width img {
+       display: none;
+    }
+}
 .bd-5 .col-6 {
     display: grid;
     justify-items: center;
@@ -81,7 +86,9 @@
 
 /* ------------------------cection 3----------------------- */
 
-
+.mm-9{
+    margin-top: 7rem;
+}
 .i1 {
 
     width: 100%;
